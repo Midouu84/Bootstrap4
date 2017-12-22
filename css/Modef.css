@@ -1,0 +1,351 @@
+/*
+Theme name  : Marketing v1
+
+Theme coder : EL MAHDI KHARBOUCHI
+color:#45a247
+color:#fc4a1a
+color: #7b6762 //text
+font-family: 'Abril Fatface', georgia;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Lora', serif;
+
+*/
+body{
+	height: 4000px;
+}
+
+/* Offline fonts */
+
+@font-face{
+	font-family: 'Abril Fatface';
+	src:url(../fonts/AbrilFatface-Regular.ttf);
+}
+@font-face{
+	font-family: 'Lora', serif;
+	src:url(../fonts/Lora-Regular.ttf);
+}
+
+
+
+/* Start upper bar */
+.upper-bar{
+		background-color:#45a247;
+		color: #FFF;
+		padding: 10px; 
+}
+.adds{
+		font-family: 'Lora', serif;
+}
+.lef-1{
+		margin-left: 30%;
+		font-family: 'Lora', serif;
+}
+
+.upper-bar .yours{
+
+		display: inline-block;
+		border: 1px solid ;
+		padding: 2px 10px;
+		margin-left: 5%;
+		font-family: 'Open Sans', sans-serif;
+}
+
+/* End upper bar */
+
+/*Start nav bar */
+
+.navbar-brand >span{
+		font-size: 25px;
+}
+
+.navbar-brand span:first-child{
+		font-size: 30px;
+		font-weight: bold;
+		color: #45a247;
+		font-family: 'Abril Fatface', georgia;
+}
+.navbar-brand span:last-child{
+		font-family: 'Abril Fatface', georgia;
+		color: #fc4a1a;
+}
+
+.navbar-light .navbar-nav .nav-link{
+		font-family: 'Lora', serif;
+		font-size: 20px;
+		text-transform: uppercase;
+		margin-left: 10px;
+		color: #45a247;
+}
+.navbar-light .navbar-nav 
+.active>.nav-link, 
+.navbar-light .navbar-nav
+ .nav-link.active, 
+ .navbar-light .navbar-nav 
+ .nav-link.show, 
+ .navbar-light .navbar-nav 
+ .show>.nav-link{
+		color: #fc4a1a;
+}
+
+/*End nav bar */
+
+/* Start slider */
+.slider{
+
+		background: #EEE;
+}
+.slider .carousel-inner{
+		display: flex;
+		align-items: center;
+		justify-content: left;
+
+}
+.slider .carousel-inner h1{
+
+		position: absolute;
+		color: #FFF;
+		z-index: 3;
+		font-size: 50px;
+		max-width: 900px;
+		left: 100px;
+		font-family: 'Abril Fatface', georgia;
+}
+.sp1{
+		background-color: #fc4a1a;
+		font-family: 'Lora', serif;
+		letter-spacing: 5px;
+		border-radius: 10px;
+		padding:5px 5px 5px 5px;
+}
+.sp2{
+	
+		color: #45a247;
+		border-radius: 20px;
+}
+
+.slider .carousel-inner .overlay{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background-color: rgba(69, 162, 71, 0.25);
+		z-index: 2;
+
+}
+
+.slider .carousel-item{
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+.slider .carousel1{
+		background-image: url('../images/slider/slid1.png');
+}
+.slider .carousel2{
+		background-image: url('../images/slider/slid2.png');
+}
+.slider .carousel3{
+		background-image: url('../images/slider/slid3.png');
+}	
+
+.slider .carousel-indicators li{
+
+		height: 10px;
+		cursor: pointer;
+}
+.carousel-indicators li{
+	background-color:#45a247;
+}
+.slider .carousel-indicators .active{
+	background-color:#fc4a1a;
+}
+
+/* End slider */
+
+/* Start features */
+.features{
+	padding: 60px 0;
+}
+.features i{
+
+	color: #fc4a1a;
+	
+}
+.features h2{
+
+	color: #45a247;
+	font-family: 'Lora', serif;
+}
+.features p{
+	color: #7b6762;
+	font-family: 'Lora', serif;
+	margin-bottom: 40px;
+}
+
+
+/* End features */
+
+/* Start overview  */
+.overview{
+	padding: 100px 0;
+	background-color: #70cc7224;
+}
+.overview h3{
+	color: #376738;
+	font-size: 55px;
+	font-family: 'Lora', serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+.overview p{
+	line-height: 2;
+	font-size: 20px;
+	width: 80%;
+	margin: 0 auto 10px;
+	font-family: 'Lora', serif;
+	color: #768876eb;
+}
+.overview  h4{
+	letter-spacing: 2px;
+	font-weight: normal;
+	color: #959e91d1;
+	margin-bottom: 30px;
+
+}
+
+.overview button{
+	background-color: #fc4a1a;
+	color: #FFF;
+	padding: 10px 25px;
+	font-weight: bold;
+	border: 1px solid #fc4a1a;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+
+}
+
+/* End overview  */
+
+/* Start new-products */
+.new-products{
+	padding: 60px 0;
+}
+.new-products h4{
+	color: #376738;
+	font-size: 55px;
+	font-family: 'Lora', serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+.new-products p{
+	
+	font-size: 20px;
+	width: 80%;
+	margin: 0 auto -15px;
+	font-family: 'Lora', serif;
+	color: #768876eb;
+}
+.new-products ul{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.new-products ul li{
+	color:#45a247;
+	border: 2px solid #45a247;
+	padding: 7px 7px;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-family: 'Lora', serif;
+	-webkit-transition:all 0.4s ease-in-out;
+	-moz-transition:all 0.4s ease-in-out;
+	-o-transition:all 0.4s ease-in-out;
+	transition:all 0.4s ease-in-out;
+}
+.new-products ul li:hover{
+	background-color: #fc4a1a;
+	border: 2px solid #fc4a1a;
+	color: #FFF;
+	cursor: pointer;
+}
+.new-products ul li.active{
+	background-color: #fc4a1a;
+	border: 2px solid #fc4a1a;
+	color: #FFF;
+}
+.new-products .new-images{
+	margin-top: 40px;
+}
+.new-products .new-images .row{
+	margin: 0;
+}
+.new-products .new-images .row .col-sm{
+	padding: 0;
+	-webkit-transition:all 0.4s ease-in-out;
+	-moz-transition:all 0.4s ease-in-out;
+	-o-transition:all 0.4s ease-in-out;
+	transition:all 0.4s ease-in-out;
+}
+.new-products .row img{
+	width: 100%;
+}
+
+/* End new-products */
+
+/* Standart post */
+.Standart{
+	padding: 0 0 100px;
+}
+.Standart h4{
+	color: #376738;
+	font-size: 55px;
+	font-family: 'Lora', serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 20px;
+
+
+}
+.Standart .p-latest{
+	
+	font-size: 20px;
+	width: 80%;
+	margin: 0 auto -15px;
+	font-family: 'Lora', serif;
+	color: #768876eb;
+	margin-bottom: 60px;
+}
+.Standart .card{
+	margin-bottom: 25px;
+}
+
+.Standart .card .card-title{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Lora', serif;
+	line-height: 1.5;
+	color: #45a247;
+	text-transform: uppercase;
+}
+.Standart .card  .card-link{
+	font-family: 'Lora', serif;
+	color: #fc4a1a;
+	font-weight: bold;
+}
+.Standart .card p{
+	font-size: 20px;
+	width: 80%;
+	margin: 0 auto -15px;
+	font-family: 'Lora', serif;
+	color: #768876eb;
+	margin-bottom: 5px;
+}
+
+/* End Standart */
+
